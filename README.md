@@ -12,7 +12,7 @@ As coding student I'm trying to create a simple calendar application that utiliz
 
 The Calendar Application page includes
 <h4>&#x2022; A modified starter code </h4> 
-<h4>&#x2022; The current day which is displayed at the top of the calendar </h4> 
+<h4>&#x2022; The current day which is displayed at the top of the calendar which has a Day and Date </h4> 
 <h4>&#x2022; Timeblocks for standard business hours of 9am to 5pm </h4> 
 <h4>&#x2022; Each timeblock is colour coded to indicate whether it is in the past, present, or future </h4> 
 <h4>&#x2022; Indicator colours are grey for past, red for present and green for future </h4> 
