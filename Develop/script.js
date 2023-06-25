@@ -25,3 +25,31 @@ $('#hour-15 .description').val(localStorage.getItem('hour-15'));
 $('#hour-16 .description').val(localStorage.getItem('hour-16'));
 $('#hour-17 .description').val(localStorage.getItem('hour-17'));
   
+//Function that displays background colours based on past, present and future
+function timeColours() {
+  // retrieving what time it is
+  var currentTime = dayjs().hour();
+
+  // Time block loop to enable CSS colour features
+  $('.time-block').each(function () {
+    var timeHour = parseInt($(this).attr('id').split("hour-")[1]);
+
+    // If the time hour is before the current time add the class past to it enabling the grey colour
+    if (timeHour < currentTime) {
+      $(this).addClass('past');
+    } // if the time hour is equal to the current time clear past and future classes and add the present class to enable the red colour
+    else if (timeHour === currentTime) {
+      $(this).removeClass('past');
+      $(this).removeClass('future');
+      $(this).addClass('present');
+    } // else the time hour is after the the current time clear past and present classes and add the future class to enable the green colour
+    else {
+      $(this).removeClass('past');
+      $(this).removeClass('present');
+      $(this).addClass('future');
+    }
+  });
+}
+
+// Calling the function
+timeColours();
