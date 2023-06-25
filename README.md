@@ -1,5 +1,30 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+# Deployed link: 
+
+Screenshot of page: 
+
+<hr>
+
+Description
+
+As coding student I'm trying to create a simple calendar application that utilizes jQuery to power a dynamically updated HTML and CSS. I am provided with a starter code and I have added these features to match the Acceptance Criteria listed in the task below. 
+
+The Calendar Application page includes
+<h4>&#x2022; A modified starter code </h4> 
+<h4>&#x2022; The current day which is displayed at the top of the calendar </h4> 
+<h4>&#x2022; Timeblocks for standard business hours of 9am to 5pm </h4> 
+<h4>&#x2022; Each timeblock is colour coded to indicate whether it is in the past, present, or future </h4> 
+<h4>&#x2022; Indicator colours are grey for past, red for present and green for future </h4> 
+<h4>&#x2022; Upon clicking a timeblock I can enter an event </h4> 
+<h4>&#x2022; The event can be saved when I click the save button for that timeblock </h4> 
+<h4>&#x2022; A text shows for the event when it is saved to local storage </h4> 
+<h4>&#x2022; Upon refreshing the saved events persist </h4> 
+
+This was built using HTML, CSS, Javascript powered by jQuery and love.
+
+<hr>
+
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
