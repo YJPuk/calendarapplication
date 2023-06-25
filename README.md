@@ -3,6 +3,9 @@
 # Deployed link: https://yjpuk.github.io/calendarapplication/Develop/index.html
 
 Screenshot of page: 
+https://github.com/YJPuk/calendarapplication/blob/main/Screenshots/1.png
+https://github.com/YJPuk/calendarapplication/blob/main/Screenshots/2.png
+https://github.com/YJPuk/calendarapplication/blob/main/Screenshots/3.png
 
 <hr>
 
